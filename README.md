@@ -10,6 +10,12 @@ $ composer require mpociot/illuminate-contao
 ## Usage
 
 ### Validation
+
+**Important**
+You need to copy the [validation.php](https://github.com/laravel/laravel/blob/v4.2.11/app/lang/en/validation.php) into this Contao directory:
+
+`TL_ROOT /system/lang/en/validation.php`
+
 ```php
 use Mpociot\IlluminateContao\Validator;
 $validator = Validator::make([], [
