@@ -17,7 +17,7 @@ class Validator
      * @param array $customAttributes
      * @return \Illuminate\Validation\Validator
      */
-    public function make(array $data, array $rules, array $messages = array(), array $customAttributes = array())
+    public static function make(array $data, array $rules, array $messages = array(), array $customAttributes = array())
     {
         $langPath = TL_ROOT .
             DIRECTORY_SEPARATOR . 'system' .
